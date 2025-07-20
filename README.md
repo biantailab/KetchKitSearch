@@ -1,3 +1,5 @@
+<img src="imgs/ketchKitsearch_logo.png" alt="KetchKitSearch logo" width="100" height="100" align="right" />
+
 # KetchKitSearch
 
 Powered by [Ketcher](https://github.com/epam/ketcher) & [KetchKit](https://github.com/jfell13/ketchkit)
