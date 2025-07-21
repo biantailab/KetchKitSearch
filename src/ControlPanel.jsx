@@ -6,7 +6,7 @@ import {
   getIUPACNameByCID,
   findDrugBankId,
   findWikipediaLink
-} from './ketcher-component';
+} from './services/pubchem.ts';
 
 function ControlPanel({
   smilesInput,
