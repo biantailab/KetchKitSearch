@@ -2,7 +2,7 @@
 
 # KetchKitSearch
 
-Powered by [Ketcher](https://github.com/epam/ketcher) & [KetchKit](https://github.com/jfell13/ketchkit)
+Powered by [Ketcher](https://github.com/epam/ketcher) & [RDKit](https://github.com/rdkit/rdkit-js) & [KetchKit](https://github.com/jfell13/ketchkit)
 
 ## dependencies
 
@@ -25,8 +25,8 @@ Powered by [Ketcher](https://github.com/epam/ketcher) & [KetchKit](https://githu
     - Benzyl titanium
     - Pregabalin
     - Fluoxetine
-- Get SMILES
-- Load SMILES
+- Get SMILES: `Enter`
+- Load SMILES: `Ctrl`+`Enter`
 - Clear
 - Copy
 - Get:

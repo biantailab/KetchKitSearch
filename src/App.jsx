@@ -18,7 +18,21 @@ function App() {
       console.log("RDKit.js loaded:", RDKitModule.version());
     };
     loadRDKit();
-  }, []);
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Enter' && !e.ctrlKey) {
+        e.preventDefault();
+        handleGetSmiles();
+      } else if (e.key === 'Enter' && e.ctrlKey) {
+        e.preventDefault();
+        handleLoadSmiles();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [ketcher, smilesInput]);
 
   const handleGetSmiles = async () => {
     if (!ketcher || !ketcher.getSmiles) {
